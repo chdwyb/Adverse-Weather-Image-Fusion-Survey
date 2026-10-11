@@ -255,7 +255,7 @@ The [full dataset inventory](docs/datasets.md) records 51 resources with modalit
 | Real VIS–thermal fusion and semantics | FMB; M3FD and other conventional controls | Actual weather labels; registration; semantic labels; no unique ideal fused image. |
 | SAR–optical cloud reconstruction | SEN12MS-CR, SEN12MS-CR-TS, AllClear, M3R-CR | Acquisition dates; available temporal observations; cloud/shadow masks; geographic independence. |
 | PAN–MS thin-cloud fusion | Pan-TCR-GF2 | Spectral response; scale ratio; real thin-cloud coverage; reduced/full-resolution protocols. |
-| Hyperspectral and cross-resolution fusion | Houston 2013, Houston 2018, Chikusei and spatial–spectral controls | Cloud shadow versus paired restoration; spectral calibration; real resolution mismatch. |
+| Hyperspectral and cross-resolution fusion | Houston 2013, Chikusei and spatial–spectral controls | Cloud shadow versus paired restoration; spectral calibration; real resolution mismatch. |
 | Camera/range/event perception | MUSES, Seeing Through Fog, DeLiVER, RADIATE, CADC, MS2 | Exact sensor subset; synchronization; modality failures; task annotations; real versus simulated weather. |
 
 Selection should follow the research question. Covering distinct weather, sensor, reference, and downstream-label requirements is more informative than ranking heterogeneous datasets with one arbitrary quality score. Related releases and synthetic derivatives should not be treated as independent scenes.
